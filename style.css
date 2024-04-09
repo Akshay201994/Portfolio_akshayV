@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: bisque;
+    /* background-image:url('/RandomNotes/adi-goldstein-fARVSWznseM-unsplash.jpg');
+    background-size:cover; */
+}
+
+#pickUp{
+    height:20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    font-family: "Rubik Scribble", system-ui;
+    font-size: 2.5rem;
+    color: #212121;
+    font-weight: 700;
+}
+
+
+#pickUpMenu{
+    display: flex;
+    gap:5rem;
+    list-style: none;
+}
+
+a,#logoLink{
+    font-family: 'poppins';
+    font-size:1.2rem;
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+#guitIco{
+    height: 2rem;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: burlywood;
+}
+.guitarMain{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    outline: 2px solid black;
+}
+
+.form{
+    margin-top: 5%;
+    margin-left:5%;
+    /* align-self: center; */
+    font-family: 'poppins';
+}
+#randomNote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:15rem;
+    height:76px;
+    width:76px;
+    position: absolute;
+    top:70%;
+    left:50%;
+    border-radius: 50%;
+    border:2px solid blaack;
+    font-family: "Grandstander";
+}
+.ip{
+    width:10rem;
+    height: 1.5rem;
+    border-radius: 5px;
+}
+#noteSet{
+    margin-left: 48px;
+    text-align: center;
+}
+#timeInterval{
+    margin-left:20px;
+    text-align: center;
+}
+
+#start{
+    margin-left: 35%;
+    height: 1.5rem;
+    width:5rem
+}
+
+.footer{
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media screen and (max-width:1024px) {
+    #pickUp {
+        flex-direction:column ;
+        padding-top: 20px;
+    }
+}
